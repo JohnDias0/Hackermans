@@ -16,13 +16,12 @@ function valide() {
         selected = " "
 
     }
-    document.write("Você acertou " + points + "de 10 questões")
-    nextpage()
-
-
-
-}
-
-function nextpage() {
+        if (points<=5){
+            document.write("Você é horrível!!! Você acertou " + points + " questões de 10 ")
+        }
+        else {
+            document.write("Parabens, você venceu!!!Você acertou " + points + " questôes de 10 ")
+        }
 
 }
+
