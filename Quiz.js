@@ -15,13 +15,14 @@ function valide() {
         }
         selected = " "
 
+        document.getElementById('result').innerHTML = "Você acertou " + points + " questões de 10!!!"
     }
         if (points<=5){
-            document.write("Você é horrível!!! Você acertou " + points + " questões de 10 ")
+            setTimeout( window.location.href = "congrats.html" ), 50000
+            
         }
         else {
-            document.write("Parabens, você venceu!!!Você acertou " + points + " questôes de 10 ")
+            setTimeout( window.location.href = "defeat.html"), 50000
         }
 
 }
-
