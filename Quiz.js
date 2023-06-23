@@ -35,11 +35,10 @@ function valide() {
 
         document.getElementById('result').innerHTML = "Você acertou " + points + " questões de 10!!!"
     }
-        if (points>5){
+        if (points>=5){
             setTimeout( window.location.href = "congrats.html" ), 1000000
-            
         }
-        if (points<=5) {
+        else {
             setTimeout( window.location.href = "defeat.html"), 1000000
         }
 
