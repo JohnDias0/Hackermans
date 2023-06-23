@@ -160,11 +160,18 @@ h2 {
       transition: opacity 2s;
 }
 
-.middleini {    
-    padding: 20%;
+.middleini {
+    position: fixed;
+    top: -50% auto;
+    left: 50%;
+    transform: translate(-50%, 400%);
 }
 
 span > .btmini {
     font-size: 30px;
     padding: 0 20px 0 20px;
+}
+
+.middleend {
+    text-align: center;
 }
