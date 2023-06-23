@@ -35,7 +35,7 @@ h1 {
    -moz-text-fill-color: transparent;
 }
 
-article {
+article.art1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17pt;
     color: rgb(27, 27, 49);
@@ -51,6 +51,7 @@ article {
     max-width: 40%;
     margin: 0 auto;
     padding: 15px 0 15px 0;
+
 }
 iframe {
     position: absolute;
@@ -87,7 +88,7 @@ button {
     border-radius: 20px;
 }
 
-.fieldbtm {
+#fieldbtm {
     text-align: center;
     letter-spacing: 90px;
 }
@@ -116,4 +117,45 @@ h2 {
 
 .funny {
     margin-left: 10px;
+}
+
+#d1{
+    opacity: 1;
+      transition: opacity 2s
+}
+#d2{
+    opacity: 0;
+      transition: opacity 2s;
+}
+#d3{
+    opacity: 0;
+      transition: opacity 2s;
+}
+#d4{
+    opacity: 0;
+      transition: opacity 2s;
+}
+#d5{
+    opacity: 0;
+      transition: opacity 2s;
+}
+#d6{
+    opacity: 0;
+      transition: opacity 2s;
+}
+#d7{
+    opacity: 0;
+      transition: opacity 2s;
+}
+#d8{
+    opacity: 0;
+      transition: opacity 2s;
+}
+#d9{
+    opacity: 0;
+      transition: opacity 2s;
+}
+#d10{
+    opacity: 0;
+      transition: opacity 2s;
 }
