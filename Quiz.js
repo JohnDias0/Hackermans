@@ -1,4 +1,4 @@
-const div = ["d2", "d3","d4", "d5", "d6", "d7", "d8", "d9", "d10"]
+const div = ["d2", "d3","d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13"]
 for (let i = 0; i< div.length; i++){
     let d = div[i]
     document.addEventListener("DOMContentLoaded", function() {
@@ -17,8 +17,8 @@ for (let i = 0; i< div.length; i++){
 function valide() {
     var points
     points = parseInt(0)
-    const radio = ["radio1", "radio2", "radio3", "radio4", "radio5", "radio6", "radio7", "radio8", "radio9", "radio10"]
-    const answer = ["b", "d", "d", "c", "a", "b", "b", "d", "b", "a"]
+    const radio = ["radio1", "radio2", "radio3", "radio4", "radio5", "radio6", "radio7", "radio8", "radio9", "radio10", "radio11", "radio12", "radio13"]
+    const answer = ["a", "b", "b", "b", "b", "b", "b", "a", "b", "b", "b", "b", "b"]
     for (let i = 0; i < radio.length; i++) { 
         let question = radio[i]
         let a = answer[i]
@@ -33,9 +33,9 @@ function valide() {
         }
         selected = " "
 
-        document.getElementById('result').innerHTML = "Você acertou " + points + " questões de 10!!!"
+        document.getElementById('result').innerHTML = "Você acertou " + points + " questões de 13!!!"
     }
-        if (points>=5){
+        if (points>=7){
             setTimeout( window.location.href = "congrats.html" ), 1000000
         }
         else {
